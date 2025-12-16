@@ -1,0 +1,16 @@
+etl-ventas-coop/
+├── data/
+│   ├── raw/
+│   │   ├── ventas_sucursal1.csv
+│   │   └── ventas_sucursal2.csv
+│   └── processed/
+│       └── ventas_consolidadas.parquet
+├── src/
+│   ├── config.py
+│   ├── etl_pipeline.py
+│   └── utils.py
+├── logs/
+│   └── etl_20251216.log
+├── requirements.txt
+├── README.md
+└── run_etl.bat  (o .sh para Linux)
